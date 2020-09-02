@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schemalist>
+    <schema path="/com/deepin/dde/usrdata/" id="com.deepin.dde.usrdata">
+        <key type="s" name="name">
+            <default>""</default>
+            <summary>姓名</summary>
+            <description>默认为空</description>
+        </key>
+        <key type="i" name="age">
+            <default>0</default>
+            <summary>年龄</summary>
+            <description></description>
+        </key>
+        <key type="s" name="phone">
+            <default>""</default>
+            <summary>电话</summary>
+            <description>默认为空</description>
+        </key>
+        <key type="s" name="id">
+            <default>""</default>
+            <summary>身份证</summary>
+            <description>默认为空</description>
+        </key>
+        <key type="s" name="address">
+            <default>""</default>
+            <summary>地址</summary>
+            <description>默认为空</description>
+        </key>
+        <key type="d" name="temperature">
+            <default>0.0</default>
+            <summary>体温</summary>
+            <description>默认为空</description>
+        </key>
+    </schema>
+</schemalist>
